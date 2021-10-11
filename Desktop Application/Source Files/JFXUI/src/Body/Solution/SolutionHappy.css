@@ -1,0 +1,18 @@
+#back {
+  -fx-background-color: #f27df0;
+}
+
+.label {
+	-fx-text-fill: #ffffff;
+	-fx-font: 9px normal;
+}
+
+.choice-box .label {
+    -fx-text-fill: #f27df0;
+}
+
+.table-view .column-header .label {
+	-fx-text-fill: #ffffff;
+	-fx-font: 10px papyrus;
+	-fx-font-family: papyrus, fantasy;
+}

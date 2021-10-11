@@ -1,0 +1,18 @@
+#back {
+  -fx-background-color: #f27df0;
+}
+
+#backtwo {
+  -fx-background-color: #f27df0;
+  -fx-border-color: #ffffff;
+}
+
+.menu-item .label {
+    -fx-text-fill: #f27df0;
+}
+
+.label {
+	-fx-text-fill: #ffffff;
+	-fx-font: 10px papyrus;
+	-fx-font-family: papyrus, fantasy;
+}

@@ -1,0 +1,11 @@
+.button:hover{
+	-fx-cursor: hand;
+}
+
+#mycustombtn:hover {
+	-fx-text-fill: white;
+}
+
+.button:pressed {
+	-fx-opacity: 0.7;
+}

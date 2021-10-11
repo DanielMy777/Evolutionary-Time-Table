@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Body.Selections.SelectionsController">
+  <content>
+    <AnchorPane id="back" minHeight="0.0" minWidth="0.0" prefHeight="270.0" prefWidth="678.0">
+         <children>
+            <RadioButton fx:id="TruncationRB" layoutX="28.0" layoutY="34.0" mnemonicParsing="false" onAction="#ClickedTruncation" text="Truncation">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </RadioButton>
+            <Separator layoutX="502.0" layoutY="-3.0" orientation="VERTICAL" prefHeight="273.0" prefWidth="16.0" />
+            <Separator layoutY="90.0" prefHeight="0.0" prefWidth="508.0" />
+            <Separator layoutY="183.0" prefHeight="0.0" prefWidth="508.0" />
+            <RadioButton fx:id="RouletteRB" layoutX="28.0" layoutY="127.0" mnemonicParsing="false" onAction="#ClickedRoulette" text="Roulette Wheel">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="TournamentRB" layoutX="28.0" layoutY="215.0" mnemonicParsing="false" onAction="#ClickedTournament" text="Tournament">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </RadioButton>
+            <Slider fx:id="TruncationSlider" layoutX="175.0" layoutY="53.0" majorTickUnit="20.0" minorTickCount="5" onDragDetected="#MovedTruncationSlider" showTickLabels="true" value="10.0" />
+            <Label layoutX="212.0" layoutY="26.0" text="Top Percent:" />
+            <TextField fx:id="TruncationTopPercent" editable="false" layoutX="322.0" layoutY="53.0" prefHeight="25.0" prefWidth="43.0" />
+            <TextField fx:id="PTETB" layoutX="198.0" layoutY="222.0" onKeyTyped="#TypedPTE" prefHeight="25.0" prefWidth="96.0" />
+            <Label layoutX="235.0" layoutY="198.0" text="PTE:" />
+            <Label layoutX="572.0" layoutY="26.0" text="Elitism" />
+            <Spinner fx:id="ElitismSpinner" layoutX="539.0" layoutY="57.0" prefHeight="25.0" prefWidth="101.0" />
+            <Button id="mycustombtn" fx:id="ApplyBtn" layoutX="555.0" layoutY="216.0" mnemonicParsing="false" onAction="#ClickedApply" prefHeight="31.0" prefWidth="78.0" style="-fx-background-color: DodgerBlue;" text="Apply!">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="496.0" layoutY="6.0" text="?">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <tooltip>
+                  <Tooltip fx:id="QuestionToolTip" text="You can view and set the selection method &#10;and its configurations here!" wrapText="true" />
+               </tooltip>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

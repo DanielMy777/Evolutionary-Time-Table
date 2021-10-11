@@ -1,0 +1,13 @@
+#back {
+  -fx-background-color: #252536;
+}
+
+.label {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}
+
+.radio-button {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}

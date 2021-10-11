@@ -1,0 +1,13 @@
+#back {
+  -fx-background-color: #252536;
+}
+
+.label {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 14px Serif;
+}
+
+.table-view .column-header .label {
+	-fx-font: 12px normal;
+    -fx-text-fill: lightgray;
+}

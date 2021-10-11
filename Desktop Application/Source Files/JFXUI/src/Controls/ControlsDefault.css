@@ -1,0 +1,11 @@
+.text-field.error {
+  -fx-text-box-border: red ;
+}
+
+.spinner.error {
+  -fx-text-box-border: red ;
+}
+
+.radio-button.error {
+  -fx-border-color: red
+}

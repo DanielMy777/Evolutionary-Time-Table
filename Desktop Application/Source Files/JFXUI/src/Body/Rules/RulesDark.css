@@ -1,0 +1,12 @@
+#back {
+  -fx-background-color: #252536;
+}
+
+#help {
+	-fx-font: 10px Serif;
+}
+
+.label {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}

@@ -1,0 +1,13 @@
+#back {
+  -fx-background-color: #252536;
+}
+
+#backtwo {
+  -fx-background-color: #252536;
+  -fx-border-color: #00d4ff;
+}
+
+.label {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}

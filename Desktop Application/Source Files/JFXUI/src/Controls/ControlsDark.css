@@ -1,0 +1,63 @@
+#back {
+  -fx-background-color: #252536;
+}
+
+.label {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}
+
+#lbl {
+	-fx-font: 14px Serif;
+}
+
+.radio-button {
+	-fx-text-fill: #00d4ff;
+	-fx-font: 16px Serif;
+}
+
+#scrollback {
+	-fx-background-color: #252536;
+}
+
+.button:hover {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+#StartBtn:hover {
+	-fx-background-color: green;
+}
+
+#StartBtn:pressed {
+	-fx-background-color: #00d4ff;
+}
+
+#PauseBtn:hover {
+	-fx-background-color: orange;
+}
+
+#PauseBtn:pressed {
+	-fx-background-color: #00d4ff;
+}
+
+#StopBtn:hover {
+	-fx-background-color: red;
+}
+
+#StopBtn:pressed {
+	-fx-background-color: #00d4ff;
+}
+
+#NextGenBtn:hover {
+	-fx-background-color: #00ff6a;
+}
+
+#NextGenBtn:pressed {
+	-fx-background-color: #00d4ff;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="280.0" prefWidth="212.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Panel.PanelController">
+   <content>
+      <FlowPane prefHeight="275.0" prefWidth="210.0">
+         <children>
+            <Button fx:id="SchoolBtn" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowSchoolBody" prefHeight="58.0" prefWidth="108.0" text="School&#10;Properties" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="70.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/school.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="RulesBtn" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowRulesBody" prefHeight="57.0" prefWidth="102.0" text="Rules">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="70.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/hammer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="SelectionBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowSelectionBody" prefHeight="67.0" prefWidth="108.0" text="Selection&#10;Methods" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="80.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/select.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="CrossoverBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowCrossoverBody" prefHeight="67.0" prefWidth="102.0" text="Crossover&#10;Methods" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="80.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/crossover.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="MutationsBtn" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowMutationsBody" prefHeight="64.0" prefWidth="108.0" text="Mutations">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="70.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/dna.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="GraphBtn" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowGraphBody" prefHeight="64.0" prefWidth="102.0" text="Progress" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="70.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/progress.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="SolutionBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ShowBestSolutionBody" prefHeight="87.0" prefWidth="210.0" text="View Best Solution" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="70.0" opacity="0.25" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Resources/medal.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+         </children>
+      </FlowPane>
+   </content>
+</ScrollPane>

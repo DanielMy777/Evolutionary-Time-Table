@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Tooltip?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Body.Graph.GraphController">
+   <content>
+      <TabPane id="back" prefHeight="271.0" prefWidth="679.0">
+         <tabs>
+            <Tab text="Progress Graph">
+               <content>
+                  <LineChart fx:id="ProgressGraph" prefHeight="213.0" prefWidth="617.0" title="Progress Through Generations">
+                    <xAxis>
+                      <NumberAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+               </content>
+            </Tab>
+            <Tab text="Progress Chart">
+               <content>
+                  <TableView fx:id="ProgressChart" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="GenerationCol" minWidth="110.0" prefWidth="110.0" text="Generation" />
+                      <TableColumn fx:id="FitnessCol" minWidth="110.0" prefWidth="110.0" sortType="DESCENDING" text="Best Fitness" />
+                        <TableColumn fx:id="ImprovementCol" minWidth="110.0" prefWidth="110.0" sortType="DESCENDING" text="Improvement" />
+                        <TableColumn fx:id="SolutionCol" minWidth="200.0" prefWidth="200.0" sortable="false" text="Best Solution">
+                           <graphic>
+                              <CheckBox fx:id="FullTableCB" mnemonicParsing="false" onAction="#ToggleFullTable">
+                                 <tooltip>
+                                    <Tooltip text="Span / collapse the table to saved solutions only" />
+                                 </tooltip></CheckBox>
+                           </graphic></TableColumn>
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </content>
+</ScrollPane>

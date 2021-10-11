@@ -1,0 +1,13 @@
+#back {
+  -fx-background-color: #f27df0;
+}
+
+.label {
+	-fx-text-fill: #ffffff;
+	-fx-font: 10px papyrus;
+	-fx-font-family: papyrus, fantasy;
+}
+
+.choice-box .label {
+    -fx-text-fill: #f27df0;
+}

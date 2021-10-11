@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<ScrollPane id="backtwo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Body.Properties.PropertiesController">
+   <content>
+      <TabPane id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="681.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Subjects">
+               <content>
+                  <TableView fx:id="SubjectsTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="SubjectsNumberCol" prefWidth="152.0" text="Subject Number" />
+                      <TableColumn fx:id="SubjectsNameCol" minWidth="0.0" prefWidth="160.0" text="Subject Name" />
+                    </columns>
+                  </TableView>
+               </content>
+            </Tab>
+          <Tab text="Teachers">
+               <content>
+                  <TableView fx:id="TeachersTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="TeachersNumberCol" prefWidth="115.0" text="Teacher Number" />
+                      <TableColumn fx:id="TeachersNameCol" prefWidth="106.0" text="Teacher Name" />
+                        <TableColumn fx:id="TeachersSubjectsCol" minWidth="0.0" prefWidth="457.0" text="Teachable Subjects" />
+                    </columns>
+                  </TableView>
+               </content>
+          </Tab>
+          <Tab text="Classes">
+               <content>
+                  <TableView fx:id="ClassTable" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="ClassesNumberCol" prefWidth="99.0" text="Class Number" />
+                      <TableColumn fx:id="ClassesNameCol" minWidth="4.0" prefWidth="121.0" text="Class Name" />
+                        <TableColumn fx:id="ClassesStudyCol" minWidth="5.0" prefWidth="195.0" text="Needs To Study" />
+                        <TableColumn fx:id="ClassesHoursCol" minWidth="0.0" prefWidth="263.0" text="For How Many Hours" />
+                    </columns>
+                  </TableView>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </content>
+</ScrollPane>
