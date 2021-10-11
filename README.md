@@ -1,5 +1,5 @@
 <p align="center">
-  !logo(https://github.com/DanielMy777/Evolutionary-Time-Table/Web Application/WebETT/web/common/pics/logo.svg?raw=true)
+  !logo(https://github.com/DanielMy777/Evolutionary-Time-Table/Web%20Application/WebETT/web/common/pics/logo.svg?raw=true)
 </p>
 
 
