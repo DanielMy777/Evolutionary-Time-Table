@@ -1,0 +1,48 @@
+<script src="../Companion/Chat.js"></script>
+<link rel="stylesheet" href="../Companion/Companion.css">
+<div id="body">
+    <div id="chat-circle" class="btn btn-raised chat-btn">
+        <div id="chat-overlay"></div>
+        <i class="material-icons"></i>
+    </div>
+    <div id="users-circle" class="btn btn-raised users-btn">
+        <div id="users-overlay"></div>
+        <i class="material-icons"></i>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+        <div id="chat-header" class="chat-box-header">Online Chat!
+            <span class="chat-box-toggle"><i class="material-icons">X</i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay">
+            </div>
+            <div id="chat-log" class="chat-logs">
+
+            </div><!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form id="chat-form" action="../chat">
+                <input type="text" name="message" id="chat-input" placeholder="Send a message..."/>
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div id="users-box" class="chat-box">
+        <div id="users-header" class="chat-box-header">Online Users:
+            <span class="chat-box-toggle"><i class="material-icons">X</i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay">
+            </div>
+            <div id="users-log" class="chat-logs">
+
+            </div><!--users-log -->
+        </div>
+    </div>
+
+
+
+
+</div>
