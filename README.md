@@ -19,7 +19,7 @@ Console application - Written entirely in Java.
 
 Desktop application - Written in Java, as well as JavaFX SDK.
 
-Web Application - Written in Java and Javascript. HTML and CSS were also used.
+Web Application - Written in Java and Javascript, HTML and CSS were also used. Apache Tomacat[[2]] took part as the Servlet Container.
 
 
 ## How To Run
@@ -41,7 +41,7 @@ Web application -
 
                       1. Download the "Web Application" folder.
 
-                      2. Extract "apache-tomcat-8.5.72.zip".[[2]]
+                      2. Extract "apache-tomcat-8.5.72.zip".
 
                       3. Drag and Drop "ETT.war" from the "Run" folder into the "webapps" folder under the extracted Tomcat folder.
 
